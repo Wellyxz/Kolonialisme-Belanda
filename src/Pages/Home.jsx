@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Import gambar Peta VOC / Nusantara Klasik
-import mapImage from '../assets/VOC_MAP.jfif'; // GANTI dengan path gambar Peta VOC Anda!
+import mapImage from '/public/assets/VOC_MAP.jfif'; // GANTI dengan path gambar Peta VOC Anda!
 
 const Home = () => {
   return (
