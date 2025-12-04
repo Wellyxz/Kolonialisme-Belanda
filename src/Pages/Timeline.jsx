@@ -6,19 +6,19 @@ import useIntersectionObserver from '../hooks/useIntersectionObserver'; 
 
 // --- Data Linimasa (Tidak Berubah) ---
 const timelineData = [
-  { year: '1595–1596', title: 'Ekspedisi Belanda Pertama', description: 'Awal kontak dagang Belanda dengan Nusantara.', path: '/detail/ekspedisi-belanda-pertama', image: 'public/assets/Ekspedisi_Pertama_Belanda.jpg', },
-  { year: '1602', title: 'Pembentukan VOC', description: 'VOC mendapat hak monopoli perdagangan di Asia.', path: '/detail/pembentukan-voc', image: 'public/assets/VOC_flag.jpg', },
-  { year: '1619', title: 'Pendirian Batavia', description: 'Batavia jadi pusat administrasi dan militer VOC.', path: '/detail/pendirian-batavia', image: 'public/assets/Kota_Batavia.jfif', },
-  { year: '1755', title: 'Perjanjian Giyanti', description: 'Pembagian kerajaan Mataram.', path: '/detail/perjanjian-giyanti', image: 'public/assets/Perjanjian_Giyanti.jpg', },
-  { year: '1799', title: 'Pembubaran VOC', description: 'Aset dan wilayah VOC diambil alih negara Belanda.', path: '/detail/pembubaran-voc', image: 'public/assets/Pembubaran_VOC.jfif', },
-  { year: '1825–1830', title: 'Perang Jawa (Diponegoro)', description: 'Salah satu pemberontakan besar terhadap kekuasaan kolonial.', path: '/detail/perang-jawa', image: 'public/assets/Perang_Diponegoro.jpg', },
-  { year: '1830', title: 'Sistem Tanam Paksa', description: 'Penerapan kebijakan ekonomi yang memaksakan produksi ekspor.', path: '/detail/sistem-tanam-paksa', image: 'public/assets/Tanam_Paksa.jpg', },
-  { year: '1901', title: 'Kebijakan Etis (Politik Etis)', description: 'Pengakuan formal atas tanggung jawab Belanda.', path: '/detail/politik-etis', image: 'public/assets/Politik_Etis.png', },
-  { year: '1928', title: 'Sumpah Pemuda', description: 'Momen penting identitas nasional.', path: '/detail/sumpah-pemuda', image: 'public/assets/Sumpah_Pemuda.jpg', },
-  { year: '1945 (17 Agustus)', title: 'Proklamasi Kemerdekaan', description: 'Awal Revolusi Nasional Indonesia.', path: '/detail/proklamasi-kemerdekaan', image: 'public/assets/Proklamasi_Kemerdekaan.jpg', },
-  { year: '1945 (10 November)', title: 'Pertempuran Surabaya', description: 'Usaha perebutan kembali wilayah kekuasaan oleh kolonial.', path: '/detail/pertempuran-surabaya', image: 'public/assets/Pertempuran_Surabaya.webp', },
-  { year: '1947-1949', title: 'Agresi Militer Belanda', description: 'Operasi militer besar untuk perebutan kembali wilayah kekuasaan.', path: '/detail/agresi-militer-belanda', image: 'public/assets/Agresi_Militer_Belanda.jpg', },
-  { year: '1949 (27 Desember)', title: 'Pengakuan Kedaulatan Oleh Belanda', description: 'Pengakuan Kedaulatan Indonesia oleh Belanda secara de jure.', path: '/detail/pengakuan-kedaulatan-belanda', image: 'public/assets/Pengakuan_Kedaulatan_Belanda.jpg', },
+  { year: '1595–1596', title: 'Ekspedisi Belanda Pertama', description: 'Awal kontak dagang Belanda dengan Nusantara.', path: '/detail/ekspedisi-belanda-pertama', image: '/public/assets/Ekspedisi_Pertama_Belanda.jpg', },
+  { year: '1602', title: 'Pembentukan VOC', description: 'VOC mendapat hak monopoli perdagangan di Asia.', path: '/detail/pembentukan-voc', image: '/public/assets/VOC_flag.jpg', },
+  { year: '1619', title: 'Pendirian Batavia', description: 'Batavia jadi pusat administrasi dan militer VOC.', path: '/detail/pendirian-batavia', image: '/public/assets/Kota_Batavia.jfif', },
+  { year: '1755', title: 'Perjanjian Giyanti', description: 'Pembagian kerajaan Mataram.', path: '/detail/perjanjian-giyanti', image: '/public/assets/Perjanjian_Giyanti.jpg', },
+  { year: '1799', title: 'Pembubaran VOC', description: 'Aset dan wilayah VOC diambil alih negara Belanda.', path: '/detail/pembubaran-voc', image: '/public/assets/Pembubaran_VOC.jfif', },
+  { year: '1825–1830', title: 'Perang Jawa (Diponegoro)', description: 'Salah satu pemberontakan besar terhadap kekuasaan kolonial.', path: '/detail/perang-jawa', image: '/public/assets/Perang_Diponegoro.jpg', },
+  { year: '1830', title: 'Sistem Tanam Paksa', description: 'Penerapan kebijakan ekonomi yang memaksakan produksi ekspor.', path: '/detail/sistem-tanam-paksa', image: '/public/assets/Tanam_Paksa.jpg', },
+  { year: '1901', title: 'Kebijakan Etis (Politik Etis)', description: 'Pengakuan formal atas tanggung jawab Belanda.', path: '/detail/politik-etis', image: '/public/assets/Politik_Etis.png', },
+  { year: '1928', title: 'Sumpah Pemuda', description: 'Momen penting identitas nasional.', path: '/detail/sumpah-pemuda', image: '/public/assets/Sumpah_Pemuda.jpg', },
+  { year: '1945 (17 Agustus)', title: 'Proklamasi Kemerdekaan', description: 'Awal Revolusi Nasional Indonesia.', path: '/detail/proklamasi-kemerdekaan', image: '/public/assets/Proklamasi_Kemerdekaan.jpg', },
+  { year: '1945 (10 November)', title: 'Pertempuran Surabaya', description: 'Usaha perebutan kembali wilayah kekuasaan oleh kolonial.', path: '/detail/pertempuran-surabaya', image: '/public/assets/Pertempuran_Surabaya.webp', },
+  { year: '1947-1949', title: 'Agresi Militer Belanda', description: 'Operasi militer besar untuk perebutan kembali wilayah kekuasaan.', path: '/detail/agresi-militer-belanda', image: '/public/assets/Agresi_Militer_Belanda.jpg', },
+  { year: '1949 (27 Desember)', title: 'Pengakuan Kedaulatan Oleh Belanda', description: 'Pengakuan Kedaulatan Indonesia oleh Belanda secara de jure.', path: '/detail/pengakuan-kedaulatan-belanda', image: '/public/assets/Pengakuan_Kedaulatan_Belanda.jpg', },
 ];
 
 // --- Komponen Item Linimasa (Kembali ke Aksen Emas) ---
