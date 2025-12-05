@@ -15,14 +15,14 @@ const tokohData = [
     icon: "🔥",
     color: "text-red-500", 
     figures: [
-      { name: "Pangeran Diponegoro", description: "Pemimpin Perang Jawa (1825–1830), perlawanan terbesar terhadap Belanda.", image: "/public/assets/Pangeran_Diponegoro.jfif", wikipediaUrl: createWikiUrl("Pangeran Diponegoro") },
-      { name: "Tuanku Imam Bonjol", description: "Pemimpin Perang Padri, simbol perjuangan Sumatra Barat.", image: "/public/assets/Tuanku_Imam_Bonjol.jpg", wikipediaUrl: createWikiUrl("Tuanku Imam Bonjol") },
-      { name: "Cut Nyak Dien", description: "Pejuang Aceh yang gigih, ikon keberanian perempuan melawan kolonial.", image: "/public/assets/Cut_Nyak_Dien.jpg", wikipediaUrl: createWikiUrl("Cut Nyak Dhien") }, // Catatan: Biasanya 'Dhien' di Wikipedia
-      { name: "Sisingamangaraja XII", description: "Pemimpin perlawanan Batak selama puluhan tahun di Sumatra Utara.", image: "/public/assets/Sisingamaraja_XII.jpg", wikipediaUrl: createWikiUrl("Sisingamangaraja XII") },
-      { name: "Sultan Hasanuddin", description: "Raja Gowa yang menolak monopoli perdagangan VOC, dijuluki 'Ayam Jantan dari Timur'.", image: "/public/assets/Sultan_Hasanuddin.jpg", wikipediaUrl: createWikiUrl("Sultan Hasanuddin") },
-      { name: "Sultan Agung Mataram", description: "Menyerang VOC di Batavia (1628–1629).", image: "/public/assets/Sultan_Agung_Mataram.jpg", wikipediaUrl: createWikiUrl("Sultan Agung dari Mataram") }, // Catatan: Judul artikel lengkap
-      { name: "Pattimura", description: "Pemimpin perlawanan Maluku (1817).", image: "/public/assets/Pattimura.jpg", wikipediaUrl: createWikiUrl("Pattimura") },
-      { name: "Teuku Umar", description: "Strategi pura-pura bekerja sama dengan Belanda untuk memperoleh senjata.", image: "/public/assets/Teuku_Umar.jpg", wikipediaUrl: createWikiUrl("Teuku Umar") },
+      { name: "Pangeran Diponegoro", description: "Pemimpin Perang Jawa (1825–1830), perlawanan terbesar terhadap Belanda.", image: "/Pangeran_Diponegoro.jfif", wikipediaUrl: createWikiUrl("Pangeran Diponegoro") },
+      { name: "Tuanku Imam Bonjol", description: "Pemimpin Perang Padri, simbol perjuangan Sumatra Barat.", image: "/Tuanku_Imam_Bonjol.jpg", wikipediaUrl: createWikiUrl("Tuanku Imam Bonjol") },
+      { name: "Cut Nyak Dien", description: "Pejuang Aceh yang gigih, ikon keberanian perempuan melawan kolonial.", image: "/Cut_Nyak_Dien.jpg", wikipediaUrl: createWikiUrl("Cut Nyak Dhien") }, // Catatan: Biasanya 'Dhien' di Wikipedia
+      { name: "Sisingamangaraja XII", description: "Pemimpin perlawanan Batak selama puluhan tahun di Sumatra Utara.", image: "/Sisingamaraja_XII.jpg", wikipediaUrl: createWikiUrl("Sisingamangaraja XII") },
+      { name: "Sultan Hasanuddin", description: "Raja Gowa yang menolak monopoli perdagangan VOC, dijuluki 'Ayam Jantan dari Timur'.", image: "/Sultan_Hasanuddin.jpg", wikipediaUrl: createWikiUrl("Sultan Hasanuddin") },
+      { name: "Sultan Agung Mataram", description: "Menyerang VOC di Batavia (1628–1629).", image: "/Sultan_Agung_Mataram.jpg", wikipediaUrl: createWikiUrl("Sultan Agung dari Mataram") }, // Catatan: Judul artikel lengkap
+      { name: "Pattimura", description: "Pemimpin perlawanan Maluku (1817).", image: "/Pattimura.jpg", wikipediaUrl: createWikiUrl("Pattimura") },
+      { name: "Teuku Umar", description: "Strategi pura-pura bekerja sama dengan Belanda untuk memperoleh senjata.", image: "/Teuku_Umar.jpg", wikipediaUrl: createWikiUrl("Teuku Umar") },
     ],
   },
   {
@@ -30,10 +30,10 @@ const tokohData = [
     icon: "💡",
     color: "text-yellow-500", 
     figures: [
-      { name: "R.A. Kartini", description: "Pelopor emansipasi perempuan & pembaruan pemikiran sosial melalui pendidikan.", image: "/public/assets/R.A_Kartini.jpg", wikipediaUrl: createWikiUrl("Kartini") },
-      { name: "Ki Hajar Dewantara", description: "Pendiri Taman Siswa, pendorong pendidikan nasional dan filosofi 'ing ngarso sung tulodo'.", image: "/public/assets/Ki_Hajar_Dewantara.jpg", wikipediaUrl: createWikiUrl("Ki Hajar Dewantara") },
-      { name: "Soekarno", description: "Pemimpin pergerakan anti-kolonial, proklamator & presiden pertama Republik Indonesia.", image: "/public/assets/Soekarno.jfif", wikipediaUrl: createWikiUrl("Soekarno") },
-      { name: "Mohammad Hatta", description: "Pemikir nasionalisme, Bapak Koperasi, dan strategis diplomasi menuju kemerdekaan.", image: "/public/assets/Muhammad_Hatta.jpeg", wikipediaUrl: createWikiUrl("Mohammad Hatta") },
+      { name: "R.A. Kartini", description: "Pelopor emansipasi perempuan & pembaruan pemikiran sosial melalui pendidikan.", image: "/R.A_Kartini.jpg", wikipediaUrl: createWikiUrl("Kartini") },
+      { name: "Ki Hajar Dewantara", description: "Pendiri Taman Siswa, pendorong pendidikan nasional dan filosofi 'ing ngarso sung tulodo'.", image: "/Ki_Hajar_Dewantara.jpg", wikipediaUrl: createWikiUrl("Ki Hajar Dewantara") },
+      { name: "Soekarno", description: "Pemimpin pergerakan anti-kolonial, proklamator & presiden pertama Republik Indonesia.", image: "/Soekarno.jfif", wikipediaUrl: createWikiUrl("Soekarno") },
+      { name: "Mohammad Hatta", description: "Pemikir nasionalisme, Bapak Koperasi, dan strategis diplomasi menuju kemerdekaan.", image: "/Muhammad_Hatta.jpeg", wikipediaUrl: createWikiUrl("Mohammad Hatta") },
     ],
   },
   {
@@ -41,9 +41,9 @@ const tokohData = [
     icon: "⚓",
     color: "text-gray-400", 
     figures: [
-      { name: "Jan Pieterszoon Coen", description: "Gubernur VOC, pendiri Batavia dan penguat awal kekuasaan kolonial Belanda di Nusantara.", image: "/public/assets/Jan_Pieterszoon_Coen.webp", wikipediaUrl: createWikiUrl("Jan Pieterszoon Coen") },
-      { name: "Daendels", description: "Gubernur Jenderal; membangun Jalan Raya Pos (1808–1811).", image: "/public/assets/Daendels.webp", wikipediaUrl: createWikiUrl("Herman Willem Daendels") }, // Catatan: Nama lengkap
-      { name: "Van den Bosch", description: "Penggagas Cultuurstelsel/tanam paksa (1830).", image: "/public/assets/Van_den_Bosch.jpg", wikipediaUrl: createWikiUrl("Johannes van den Bosch") }, // Catatan: Nama lengkap
+      { name: "Jan Pieterszoon Coen", description: "Gubernur VOC, pendiri Batavia dan penguat awal kekuasaan kolonial Belanda di Nusantara.", image: "/Jan_Pieterszoon_Coen.webp", wikipediaUrl: createWikiUrl("Jan Pieterszoon Coen") },
+      { name: "Daendels", description: "Gubernur Jenderal; membangun Jalan Raya Pos (1808–1811).", image: "/Daendels.webp", wikipediaUrl: createWikiUrl("Herman Willem Daendels") }, // Catatan: Nama lengkap
+      { name: "Van den Bosch", description: "Penggagas Cultuurstelsel/tanam paksa (1830).", image: "/Van_den_Bosch.jpg", wikipediaUrl: createWikiUrl("Johannes van den Bosch") }, // Catatan: Nama lengkap
     ],
   },
 ];
